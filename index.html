@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Java Script</title>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    <body>
+        
+       <main class="app-container">
+           <h3 class="text-center">To do list</h3>
+           
+            <section class="new-task-container">
+                <form>
+                    <div class="input-group">
+                       <input type="text" class="form-control" placeholder="Name of the task...">
+                        
+                        <span class="input-group-btn">
+                            <button class="btn btn-primary" type="submit">Add new task </button>
+                        </span>
+                    </div>
+                </form>
+            </section>
+             
+            <section class="tasks-container">
+                <ul></ul>
+            </section>
+        </main>
+        
+       <script src="js/app.js"></script>
+       <script src="js/modules/tasks.js"></script>
+       <script src="js/modules/new-task.js"></script>
+       <script src="js/modules/tasks-list.js"></script>
+        
+    </body>
+</html>
